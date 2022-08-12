@@ -10,7 +10,7 @@ public class FirstSelenium {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().setup();  //this is my web driver
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager");
 		driver.close();
